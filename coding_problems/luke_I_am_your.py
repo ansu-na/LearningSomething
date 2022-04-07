@@ -5,6 +5,6 @@
 def relation_to_luke(name):
     relations = {"Darth Vader" : "father",
     "Leia" : "sister",
-    "Han" :	"brother in law",
+    "Han" : "brother in law",
     "R2D2" : "droid" };
     return "Luke, I am your {0}.".format(relations[name]);
