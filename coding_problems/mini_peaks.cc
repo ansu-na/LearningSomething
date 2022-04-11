@@ -4,6 +4,9 @@
 using namespace std;
 
 vector<int> miniPeaks(vector<int> arr) {
+	if (arr.size() < 2) {
+	    return result;
+	}
 	vector<int> result;
 	for (auto it = arr.begin() + 1; it != arr.end() - 1; it++) {
 		if (*it > *(it - 1) && *it > *(it + 1))
